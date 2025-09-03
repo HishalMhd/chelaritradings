@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavDropdown, Container, Fade } from 'react-bootstrap'
 import logo from '../assets/logochelari-removebg-preview.png'
+import '../App.css'
 
 function Header() {
   const [showDropdown, setShowDropdown] = useState(false)
@@ -55,9 +56,9 @@ function Header() {
 
       {/* Navbar */}
       <Navbar collapseOnSelect expand="lg" className="p-0" style={{ backgroundColor: '#fff' }}>
-        <Container fluid className="px-3">
-          <Navbar.Brand className="m-0 p-0">
-            <Link to="/">
+        <Container fluid className="px-0  custom-logo" style={{marginLeft:"-40px"}} >
+          <Navbar.Brand className="m-0 p-0 custom-logo">
+            <Link to="/" className="logo-link">
               <img src={logo} style={{ height: '60px', width: 'auto' }} alt="Chelari Tradings Logo" />
             </Link>
           </Navbar.Brand>
