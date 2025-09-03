@@ -237,18 +237,3 @@
   
 
 
-
-/* Only apply to mobile view
-@media (max-width: 991px) {
-  .navbar .container-fluid.custom-logo {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .navbar-brand.custom-logo {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-  }
-} */

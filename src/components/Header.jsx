@@ -56,14 +56,14 @@ function Header() {
 
       {/* Navbar */}
       <Navbar collapseOnSelect expand="lg" className="p-0" style={{ backgroundColor: '#fff' }}>
-        <Container fluid className="px-0  custom-logo" style={{marginLeft:"-40px"}} >
-          <Navbar.Brand className="m-0 p-0 custom-logo">
+        <Container fluid className="px-0 " style={{marginLeft:"-35px"}} >
+          <Navbar.Brand className="m-0 p-0 ">
             <Link to="/" className="logo-link">
               <img src={logo} style={{ height: '60px', width: 'auto' }} alt="Chelari Tradings Logo" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" className='ms-5'>
             <Nav className="ms-auto me-3">
               <Nav.Link as={Link} to="/aboutus" style={{ color: '#003366' }} className="fw-bold">About Us</Nav.Link>
               <Nav.Link as={Link} to="/contactus" style={{ color: '#003366' }} className="fw-bold">Contact Us</Nav.Link>
